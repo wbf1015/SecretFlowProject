@@ -1,0 +1,2 @@
+2023-06-02 16:44:57,895 - logger - DEBUG - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-02 16:48:44,445 - logger - DEBUG - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
