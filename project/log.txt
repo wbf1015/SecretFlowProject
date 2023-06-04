@@ -1,2 +1,8 @@
-2023-06-02 16:44:57,895 - logger - DEBUG - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
-2023-06-02 16:48:44,445 - logger - DEBUG - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-04 20:51:36,908 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-04 20:51:40,185 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-04 20:51:40,186 - logger - INFO - System init a PYU device user
+2023-06-04 20:51:40,186 - logger - INFO - System init a PYU device TTP
+2023-06-04 20:51:40,186 - logger - INFO - System init a PYU device chrome
+2023-06-04 20:51:40,186 - logger - INFO - System init a PYU device Webserver1
+2023-06-04 20:51:40,186 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-04 20:51:40,186 - logger - INFO - System init a SPU device with all webserver

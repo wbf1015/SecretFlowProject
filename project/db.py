@@ -6,7 +6,7 @@ logger = logger.getLogger()
 connect to the mysql and use the cursor to obtain an operation cursor
 '''
 db = pymysql.connect(
-         host='10.136.112.152',
+         host='10.136.104.53',
          port=3306,
          user='root',
          passwd='wbf20011015',
@@ -26,7 +26,7 @@ def getUserFromSQL():
         # result = cursor.fetchone()  # Fetch the first row of the query result as a tuple
         result = cursor.fetchall()  # Fetch all rows of the query result as a list of tuples
         db.commit()  # Save the changes made to the database by the transaction
-        logger.debug('mysql qury result ='+ str(result))
+        logger.info('mysql qury result ='+ str(result))
         return result
         
     except Exception:
@@ -51,7 +51,8 @@ def getUser():
     '''
     users = getUserFromSQL()
     users = [list(user) for user in users]
-    users = [[encode_unicode(m) for m in user] for user in users]
+    users = {user[0]: user[1] for user in users}
+    # users = [[encode_unicode(m) for m in user] for user in users]
     # print(users)
     return users
 
