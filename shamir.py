@@ -1,5 +1,5 @@
 import random
-from math import ceil
+# from math import ceil
 import hashlib
 from decimal import Decimal
 from itertools import combinations
@@ -192,7 +192,7 @@ if __name__ == '__main__':
     print('org_password: ', org_password)
     webserver_ss_list = generate_webserver_shares(n, t, org_password)
 
-    # 随机抽取三份来做秘密重构
+    # 随机抽取三份来做秘密重构[1, 2, 3]
     random_sequence = random.sample(range(n), t)
     print('random sequence: ', random_sequence)
     reveal_password = reconstruct_webserver_secret(webserver_ss_list, random_sequence)
