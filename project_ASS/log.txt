@@ -152,3 +152,574 @@
 2023-06-07 10:51:09,619 - logger - INFO - System init a PYU device Webserver4
 2023-06-07 10:51:09,619 - logger - INFO - System init a PYU device Webserver5
 2023-06-07 10:51:09,620 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 15:41:25,527 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 15:41:29,220 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 15:41:29,221 - logger - INFO - System init a PYU device user
+2023-06-08 15:41:29,222 - logger - INFO - System init a PYU device TTP
+2023-06-08 15:41:29,222 - logger - INFO - System init a PYU device chrome
+2023-06-08 15:41:29,222 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 15:41:29,223 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 15:41:29,223 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 15:41:29,223 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 15:41:29,223 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 15:41:29,223 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 15:43:27,373 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 15:43:30,506 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device user
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device TTP
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device chrome
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 15:43:30,507 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 15:43:30,508 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:08:42,692 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:08:46,755 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device user
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:08:46,755 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:08:46,756 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:08:46,756 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:09:12,853 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:09:15,817 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device user
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:09:15,818 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:09:15,819 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:09:15,819 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:10:50,218 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:10:53,220 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device user
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:10:53,221 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:10:53,222 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:12:24,929 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:12:27,914 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device user
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:12:27,915 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:12:27,916 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:12:27,916 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:20:55,015 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:20:58,108 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device user
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:20:58,109 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:20:58,110 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:21:48,502 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:21:52,500 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device user
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:21:52,500 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:21:52,501 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:27:40,974 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:27:44,144 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:27:44,146 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:27:59,330 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:28:03,059 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:28:03,059 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:28:03,059 - logger - INFO - System init a PYU device user
+2023-06-08 16:28:47,031 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:28:49,984 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:28:49,985 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device user
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:28:49,985 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:28:49,986 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:33:42,544 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:33:46,705 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:33:46,706 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:33:46,708 - logger - INFO - System init a PYU device user
+2023-06-08 16:33:46,709 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:33:46,712 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:33:46,714 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:33:46,717 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:33:46,721 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:33:46,721 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:33:46,723 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:33:46,724 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:34:43,321 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:34:46,407 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:34:46,408 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:34:46,410 - logger - INFO - System init a PYU device user
+2023-06-08 16:34:46,410 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:34:46,411 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:34:46,413 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:34:46,413 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:34:46,416 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:34:46,417 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:34:46,417 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:34:46,418 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:39:10,293 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:39:13,329 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:39:13,329 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:39:13,329 - logger - INFO - System init a PYU device user
+2023-06-08 16:39:13,330 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:39:13,330 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:39:13,330 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:39:13,330 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:39:13,331 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:39:13,331 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:39:13,331 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:39:13,332 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:52:04,169 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:52:07,228 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:52:07,229 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:52:07,230 - logger - INFO - System init a PYU device user
+2023-06-08 16:52:07,231 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:52:07,233 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:52:07,234 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:52:07,236 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:52:07,236 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:52:07,236 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:52:07,236 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:52:07,237 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:54:29,033 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:54:32,117 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:54:32,117 - logger - INFO - System init a PYU device user
+2023-06-08 16:54:32,117 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:54:32,117 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:54:32,117 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:54:32,117 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:54:32,118 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:54:32,118 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:54:32,118 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:54:32,118 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:54:54,532 - logger - INFO - alice登录系统成功
+2023-06-08 16:55:48,330 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 16:55:51,432 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 16:55:51,432 - logger - INFO - System init a PYU device user
+2023-06-08 16:55:51,433 - logger - INFO - System init a PYU device TTP
+2023-06-08 16:55:51,433 - logger - INFO - System init a PYU device chrome
+2023-06-08 16:55:51,433 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 16:55:51,434 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 16:55:51,435 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 16:55:51,436 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 16:55:51,436 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 16:55:51,437 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 16:56:32,395 - logger - INFO - alice登录系统成功
+2023-06-08 16:56:47,555 - logger - INFO - nigger登录系统失败
+2023-06-08 17:00:12,843 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 17:00:16,068 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 17:00:16,069 - logger - INFO - System init a PYU device user
+2023-06-08 17:00:16,069 - logger - INFO - System init a PYU device TTP
+2023-06-08 17:00:16,070 - logger - INFO - System init a PYU device chrome
+2023-06-08 17:00:16,070 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 17:00:16,070 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 17:00:16,071 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 17:00:16,072 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 17:00:16,074 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 17:00:16,074 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 17:00:41,422 - logger - INFO - alice登录系统成功
+2023-06-08 17:00:44,849 - logger - INFO - bob登录系统成功
+2023-06-08 17:00:48,617 - logger - INFO - carol登录系统成功
+2023-06-08 17:01:29,609 - logger - INFO - eva登录系统成功
+2023-06-08 17:01:44,221 - logger - INFO - nigger登录系统失败
+2023-06-08 18:36:57,092 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:37:00,357 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:37:00,358 - logger - INFO - System init a PYU device user
+2023-06-08 18:37:00,358 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:37:00,358 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:37:00,358 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:37:00,358 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:37:00,359 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:37:00,359 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:37:00,359 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:37:00,360 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:37:33,119 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:40:55,325 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:40:58,462 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:40:58,462 - logger - INFO - System init a PYU device user
+2023-06-08 18:40:58,462 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:40:58,462 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:40:58,462 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:40:58,462 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:40:58,463 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:40:58,463 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:40:58,463 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:40:58,463 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:41:32,385 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:41:44,765 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:43:54,300 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:43:57,436 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:43:57,439 - logger - INFO - System init a PYU device user
+2023-06-08 18:43:57,440 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:43:57,441 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:43:57,442 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:43:57,442 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:43:57,442 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:43:57,442 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:43:57,442 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:43:57,442 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:44:12,729 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:45:30,813 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:45:33,842 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:45:33,843 - logger - INFO - System init a PYU device user
+2023-06-08 18:45:33,843 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:45:33,844 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:45:33,844 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:45:33,845 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:45:33,846 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:45:33,847 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:45:33,848 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:45:33,849 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:46:09,872 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:46:09,873 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc36837d9d0> 提取ABY3秘密份额并重构
+2023-06-08 18:46:09,967 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc368be5eb0> 提取ABY3秘密份额并重构
+2023-06-08 18:46:10,051 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc36837db80> 提取ABY3秘密份额并重构
+2023-06-08 18:46:10,064 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc36837da60> 提取ABY3秘密份额并重构
+2023-06-08 18:46:10,173 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc3683845b0> 提取ABY3秘密份额并重构
+2023-06-08 18:46:45,155 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:46:45,156 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc36837d9d0> 提取ABY3秘密份额并重构
+2023-06-08 18:46:45,168 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc368be5eb0> 提取ABY3秘密份额并重构
+2023-06-08 18:46:45,183 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc36837db80> 提取ABY3秘密份额并重构
+2023-06-08 18:46:45,198 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc36837da60> 提取ABY3秘密份额并重构
+2023-06-08 18:46:45,214 - logger - INFO - 网站服务器正在从 <secretflow.device.device.spu.SPUObject object at 0x7fc3683845b0> 提取ABY3秘密份额并重构
+2023-06-08 18:48:26,117 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:48:29,159 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:48:29,161 - logger - INFO - System init a PYU device user
+2023-06-08 18:48:29,162 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:48:29,163 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:48:29,167 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:48:29,170 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:48:29,171 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:48:29,171 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:48:29,174 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:48:29,176 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:48:43,583 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:48:43,585 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26076e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(f91b78d7db9a659305f47d2d549223d23f4b8e340100000001000000), ObjectRef(82891771158d68c1d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:43,593 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d6e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(1e8ff6d23613278405f47d2d549223d23f4b8e340100000001000000), ObjectRef(85748392bcd969ccd3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:43,598 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c6e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(5d4b8d1788f12d2d05f47d2d549223d23f4b8e340100000001000000), ObjectRef(c54e76759b2a0c10d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:43,604 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9476e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(dc746dc61b2c192305f47d2d549223d23f4b8e340100000001000000), ObjectRef(c76a79b2875a7251d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:43,609 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a46e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(bcb4fef46b376caf05f47d2d549223d23f4b8e340100000001000000), ObjectRef(88543757a8df6d2fd3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,661 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:48:50,662 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26076e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(f91b78d7db9a659305f47d2d549223d23f4b8e340100000001000000), ObjectRef(82891771158d68c1d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,670 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d6e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(1e8ff6d23613278405f47d2d549223d23f4b8e340100000001000000), ObjectRef(85748392bcd969ccd3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,676 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c6e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(5d4b8d1788f12d2d05f47d2d549223d23f4b8e340100000001000000), ObjectRef(c54e76759b2a0c10d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,682 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9476e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(dc746dc61b2c192305f47d2d549223d23f4b8e340100000001000000), ObjectRef(c76a79b2875a7251d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,688 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a46e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(bcb4fef46b376caf05f47d2d549223d23f4b8e340100000001000000), ObjectRef(88543757a8df6d2fd3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,934 - logger - INFO - 成功找到对应的用户名alice并置位占位符 
+2023-06-08 18:48:50,935 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:48:50,935 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26076e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(f91b78d7db9a659305f47d2d549223d23f4b8e340100000001000000), ObjectRef(82891771158d68c1d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,939 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d6e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(1e8ff6d23613278405f47d2d549223d23f4b8e340100000001000000), ObjectRef(85748392bcd969ccd3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,945 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c6e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(5d4b8d1788f12d2d05f47d2d549223d23f4b8e340100000001000000), ObjectRef(c54e76759b2a0c10d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,954 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9476e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(dc746dc61b2c192305f47d2d549223d23f4b8e340100000001000000), ObjectRef(c76a79b2875a7251d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,962 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a46e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(bcb4fef46b376caf05f47d2d549223d23f4b8e340100000001000000), ObjectRef(88543757a8df6d2fd3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:48:50,968 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26076e7c64e2943ca5ebb1fc3eac0100000001000000), ObjectRef(f91b78d7db9a659305f47d2d549223d23f4b8e340100000001000000), ObjectRef(82891771158d68c1d3829489a68de5d612eac79c0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:17,677 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:49:20,736 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:49:20,736 - logger - INFO - System init a PYU device user
+2023-06-08 18:49:20,736 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:49:20,737 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:49:20,738 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:49:20,738 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:49:20,738 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:49:20,743 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:49:20,744 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:49:20,745 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:49:40,639 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:49:40,640 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26070dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(f91b78d7db9a659382278c7364eff18d8ba3d3200100000001000000), ObjectRef(82891771158d68c12792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:40,652 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d0dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(1e8ff6d23613278482278c7364eff18d8ba3d3200100000001000000), ObjectRef(85748392bcd969cc2792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:40,657 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c0dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(5d4b8d1788f12d2d82278c7364eff18d8ba3d3200100000001000000), ObjectRef(c54e76759b2a0c102792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:40,663 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9470dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(dc746dc61b2c192382278c7364eff18d8ba3d3200100000001000000), ObjectRef(c76a79b2875a72512792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:40,669 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a40dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(bcb4fef46b376caf82278c7364eff18d8ba3d3200100000001000000), ObjectRef(88543757a8df6d2f2792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:44,737 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:49:44,737 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26070dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(f91b78d7db9a659382278c7364eff18d8ba3d3200100000001000000), ObjectRef(82891771158d68c12792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:44,744 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d0dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(1e8ff6d23613278482278c7364eff18d8ba3d3200100000001000000), ObjectRef(85748392bcd969cc2792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:44,751 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c0dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(5d4b8d1788f12d2d82278c7364eff18d8ba3d3200100000001000000), ObjectRef(c54e76759b2a0c102792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:44,755 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9470dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(dc746dc61b2c192382278c7364eff18d8ba3d3200100000001000000), ObjectRef(c76a79b2875a72512792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:44,762 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a40dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(bcb4fef46b376caf82278c7364eff18d8ba3d3200100000001000000), ObjectRef(88543757a8df6d2f2792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,495 - logger - INFO - 成功找到对应的用户名alice并置位占位符 
+2023-06-08 18:49:45,496 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:49:45,496 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26070dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(f91b78d7db9a659382278c7364eff18d8ba3d3200100000001000000), ObjectRef(82891771158d68c12792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,502 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d0dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(1e8ff6d23613278482278c7364eff18d8ba3d3200100000001000000), ObjectRef(85748392bcd969cc2792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,507 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c0dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(5d4b8d1788f12d2d82278c7364eff18d8ba3d3200100000001000000), ObjectRef(c54e76759b2a0c102792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,511 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9470dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(dc746dc61b2c192382278c7364eff18d8ba3d3200100000001000000), ObjectRef(c76a79b2875a72512792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,516 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a40dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(bcb4fef46b376caf82278c7364eff18d8ba3d3200100000001000000), ObjectRef(88543757a8df6d2f2792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,521 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26070dffa6d107f3e6fd4a5e6de00100000001000000), ObjectRef(f91b78d7db9a659382278c7364eff18d8ba3d3200100000001000000), ObjectRef(82891771158d68c12792c0886960e23a9893dfdf0100000001000000)] 提取ABY3秘密份额并重构
+2023-06-08 18:49:45,529 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fbb3049f550>, <secretflow.device.device.pyu.PYUObject object at 0x7fbb3049f490>, <secretflow.device.device.pyu.PYUObject object at 0x7fbb3049f760>, <secretflow.device.device.pyu.PYUObject object at 0x7fbb3049f9d0>, <secretflow.device.device.pyu.PYUObject object at 0x7fbb3049fb20>] 提取ASS秘密份额并重构
+2023-06-08 18:49:45,531 - logger - INFO - alice登录系统成功
+2023-06-08 18:52:16,369 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:52:19,636 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device user
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:52:19,637 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:52:19,638 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:52:43,075 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:52:43,077 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26075ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(f91b78d7db9a6593f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(82891771158d68c1e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取alice的ABY3秘密份额并重构
+2023-06-08 18:52:43,092 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d5ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(1e8ff6d236132784f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(85748392bcd969cce78b8599fb3a01fa1b0d56ae0100000001000000)] 提取bob的ABY3秘密份额并重构
+2023-06-08 18:52:43,100 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c5ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(5d4b8d1788f12d2df3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(c54e76759b2a0c10e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取carol的ABY3秘密份额并重构
+2023-06-08 18:52:43,108 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9475ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(dc746dc61b2c1923f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(c76a79b2875a7251e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取david的ABY3秘密份额并重构
+2023-06-08 18:52:43,115 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a45ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(bcb4fef46b376caff3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(88543757a8df6d2fe78b8599fb3a01fa1b0d56ae0100000001000000)] 提取eva的ABY3秘密份额并重构
+2023-06-08 18:52:46,540 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:52:46,541 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26075ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(f91b78d7db9a6593f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(82891771158d68c1e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取alice的ABY3秘密份额并重构
+2023-06-08 18:52:46,546 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d5ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(1e8ff6d236132784f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(85748392bcd969cce78b8599fb3a01fa1b0d56ae0100000001000000)] 提取bob的ABY3秘密份额并重构
+2023-06-08 18:52:46,552 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c5ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(5d4b8d1788f12d2df3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(c54e76759b2a0c10e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取carol的ABY3秘密份额并重构
+2023-06-08 18:52:46,558 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9475ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(dc746dc61b2c1923f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(c76a79b2875a7251e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取david的ABY3秘密份额并重构
+2023-06-08 18:52:46,564 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a45ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(bcb4fef46b376caff3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(88543757a8df6d2fe78b8599fb3a01fa1b0d56ae0100000001000000)] 提取eva的ABY3秘密份额并重构
+2023-06-08 18:52:47,038 - logger - INFO - 成功找到对应的用户名alice并置位占位符 
+2023-06-08 18:52:47,039 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:52:47,039 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26075ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(f91b78d7db9a6593f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(82891771158d68c1e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取alice的ABY3秘密份额并重构
+2023-06-08 18:52:47,043 - logger - INFO - 网站服务器正在从 [ObjectRef(359ec6ce30d3ca2d5ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(1e8ff6d236132784f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(85748392bcd969cce78b8599fb3a01fa1b0d56ae0100000001000000)] 提取bob的ABY3秘密份额并重构
+2023-06-08 18:52:47,049 - logger - INFO - 网站服务器正在从 [ObjectRef(71b133a11e1c461c5ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(5d4b8d1788f12d2df3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(c54e76759b2a0c10e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取carol的ABY3秘密份额并重构
+2023-06-08 18:52:47,056 - logger - INFO - 网站服务器正在从 [ObjectRef(18b2ad3c688fb9475ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(dc746dc61b2c1923f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(c76a79b2875a7251e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取david的ABY3秘密份额并重构
+2023-06-08 18:52:47,061 - logger - INFO - 网站服务器正在从 [ObjectRef(cae5e964086715a45ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(bcb4fef46b376caff3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(88543757a8df6d2fe78b8599fb3a01fa1b0d56ae0100000001000000)] 提取eva的ABY3秘密份额并重构
+2023-06-08 18:52:47,068 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a26075ec7a96603d4c15189a4a01f0100000001000000), ObjectRef(f91b78d7db9a6593f3d7e3b9dab4fbb2b0ba59530100000001000000), ObjectRef(82891771158d68c1e78b8599fb3a01fa1b0d56ae0100000001000000)] 提取alice的ABY3秘密份额并重构
+2023-06-08 18:52:47,072 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f28b8480af0>, <secretflow.device.device.pyu.PYUObject object at 0x7f28b84809a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f28b8480c10>, <secretflow.device.device.pyu.PYUObject object at 0x7f28b8480e80>, <secretflow.device.device.pyu.PYUObject object at 0x7f28b8480fd0>] 提取ASS秘密份额并重构
+2023-06-08 18:52:47,075 - logger - INFO - alice登录系统成功
+2023-06-08 18:54:22,182 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:54:25,303 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:54:25,304 - logger - INFO - System init a PYU device user
+2023-06-08 18:54:25,304 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:54:25,305 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:54:25,306 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:54:25,306 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:54:25,306 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:54:25,306 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:54:25,306 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:54:25,306 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:54:39,411 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:55:09,979 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 18:56:44,119 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:56:47,350 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:56:47,350 - logger - INFO - System init a PYU device user
+2023-06-08 18:56:47,351 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:56:47,351 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:56:47,352 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:56:47,352 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:56:47,353 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:56:47,353 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:56:47,354 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:56:47,354 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:58:12,436 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:58:15,618 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device user
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:58:15,618 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:58:15,619 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 18:58:37,975 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4340>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d44f0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4610>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4760>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d48b0>] 提取ASS秘密份额并重构
+2023-06-08 18:58:37,982 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fa2505147c0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d49a0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d46d0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4430>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4910>] 提取ASS秘密份额并重构
+2023-06-08 18:58:37,986 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fa2505144f0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4ac0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d43a0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4b80>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4cd0>] 提取ASS秘密份额并重构
+2023-06-08 18:58:37,990 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fa2505147c0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4dc0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4a30>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4e80>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4fd0>] 提取ASS秘密份额并重构
+2023-06-08 18:58:37,998 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4b50>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d4430>, <secretflow.device.device.pyu.PYUObject object at 0x7fa250514700>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d81c0>, <secretflow.device.device.pyu.PYUObject object at 0x7fa2504d8310>] 提取ASS秘密份额并重构
+2023-06-08 18:59:39,611 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 18:59:42,694 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 18:59:42,695 - logger - INFO - System init a PYU device user
+2023-06-08 18:59:42,695 - logger - INFO - System init a PYU device TTP
+2023-06-08 18:59:42,695 - logger - INFO - System init a PYU device chrome
+2023-06-08 18:59:42,695 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 18:59:42,696 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 18:59:42,696 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 18:59:42,696 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 18:59:42,697 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 18:59:42,697 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 19:01:29,777 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f5a9865f820>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865f9d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865faf0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fc40>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fd90>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:01:29,784 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f5a986a7520>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fe80>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fbb0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865f910>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fdf0>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:01:29,789 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f5a9865f7f0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865f880>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986a7970>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986620a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986621f0>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:01:29,792 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fbb0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a9865ff70>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986620a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986623a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986624f0>] 提取david的ASS秘密份额并重构
+2023-06-08 19:01:29,794 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f5a9865fbb0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986625e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986620d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986626a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986627f0>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:01:32,600 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:01:33,134 - logger - INFO - 成功找到对应的用户名alice并置位占位符 
+2023-06-08 19:01:33,134 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:01:33,135 - logger - INFO - 网站服务器正在从 [ObjectRef(f4402ec78d3a2607478f24b5434ff2c603960e380100000001000000), ObjectRef(f91b78d7db9a6593e39e041a73cd10b51a5456910100000001000000), ObjectRef(82891771158d68c1a0973cddf16e871e852890cf0100000001000000)] 提取alice的ABY3秘密份额并重构
+2023-06-08 19:01:33,142 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f5a98662d60>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a98662df0>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a98662550>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a98662f10>, <secretflow.device.device.pyu.PYUObject object at 0x7f5a986680a0>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:01:33,146 - logger - INFO - alice登录系统成功
+2023-06-08 19:09:54,367 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 19:09:57,304 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 19:09:57,305 - logger - INFO - System init a PYU device user
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device TTP
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device chrome
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 19:09:57,306 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 19:09:57,307 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 19:10:00,503 - logger - INFO - ABY3成功分享alice的秘密份额于[ObjectRef(f4402ec78d3a2607288d5719700615c0096094540100000001000000), ObjectRef(f91b78d7db9a65930513575e4fd2afccef220ade0100000001000000), ObjectRef(82891771158d68c1df712e79661494e8de47fc460100000001000000)]
+2023-06-08 19:10:03,130 - logger - INFO - ABY3成功分享bob的秘密份额于[ObjectRef(359ec6ce30d3ca2d288d5719700615c0096094540100000001000000), ObjectRef(1e8ff6d2361327840513575e4fd2afccef220ade0100000001000000), ObjectRef(85748392bcd969ccdf712e79661494e8de47fc460100000001000000)]
+2023-06-08 19:10:03,145 - logger - INFO - ABY3成功分享carol的秘密份额于[ObjectRef(71b133a11e1c461c288d5719700615c0096094540100000001000000), ObjectRef(5d4b8d1788f12d2d0513575e4fd2afccef220ade0100000001000000), ObjectRef(c54e76759b2a0c10df712e79661494e8de47fc460100000001000000)]
+2023-06-08 19:10:06,225 - logger - INFO - ABY3成功分享david的秘密份额于[ObjectRef(18b2ad3c688fb947288d5719700615c0096094540100000001000000), ObjectRef(dc746dc61b2c19230513575e4fd2afccef220ade0100000001000000), ObjectRef(c76a79b2875a7251df712e79661494e8de47fc460100000001000000)]
+2023-06-08 19:10:07,583 - logger - INFO - ABY3成功分享eva的秘密份额于[ObjectRef(cae5e964086715a4288d5719700615c0096094540100000001000000), ObjectRef(bcb4fef46b376caf0513575e4fd2afccef220ade0100000001000000), ObjectRef(88543757a8df6d2fdf712e79661494e8de47fc460100000001000000)]
+2023-06-08 19:10:07,605 - logger - INFO - shamir成功分享alice的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3ea9d0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3e9a00><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3ea850><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383190><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383460>
+2023-06-08 19:10:07,634 - logger - INFO - shamir成功分享bob的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3834c0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383730><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3831c0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383700><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383790>
+2023-06-08 19:10:07,725 - logger - INFO - shamir成功分享carol的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383490><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383ee0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c383eb0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b040><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b0d0>
+2023-06-08 19:10:07,788 - logger - INFO - shamir成功分享david的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b070><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b700><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b580><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b6d0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b760>
+2023-06-08 19:10:07,860 - logger - INFO - shamir成功分享eva的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38b2b0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38beb0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38be80><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38bfa0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c38bd00>
+2023-06-08 19:10:16,616 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346640>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3467f0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346910>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346a60>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346bb0>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:10:16,622 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3964c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346ca0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3469d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346730>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346c10>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:10:16,625 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c396850>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346dc0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3466a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346e80>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346fd0>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:10:16,627 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346bb0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346730>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c396ca0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3551c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c355310>] 提取david的ASS秘密份额并重构
+2023-06-08 19:10:16,630 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346a00>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c355310>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c355280>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3554c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c355610>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:10:25,111 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:10:25,128 - logger - INFO - ABY3成功分享nigger的秘密份额于[ObjectRef(8fd94ae013982aae288d5719700615c0096094540100000001000000), ObjectRef(fa7a3ae1761e96a90513575e4fd2afccef220ade0100000001000000), ObjectRef(b1df9fc8ab87ecb1df712e79661494e8de47fc460100000001000000)]
+2023-06-08 19:10:25,161 - logger - INFO - shamir成功分享nigger的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c355f70><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c355df0><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c130><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c190><secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c070>
+2023-06-08 19:10:25,164 - logger - INFO - nigger成功注册账户
+2023-06-08 19:10:26,713 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3462e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c370>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c6a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c8e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35ca30>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:10:26,717 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346220>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c8e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c880>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35cbe0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35cd30>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:10:26,720 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c346190>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35ce20>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35ca90>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35cee0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362070>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:10:26,721 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c8e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c880>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3621f0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362220>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362370>] 提取david的ASS秘密份额并重构
+2023-06-08 19:10:26,723 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c880>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3623a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362310>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362520>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362670>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:10:26,724 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c35c880>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362730>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3620d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362820>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c362970>] 提取nigger的ASS秘密份额并重构
+2023-06-08 19:12:24,558 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3643d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36da60>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36db80>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36dcd0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36de20>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:12:24,561 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3646d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36db80>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36dc70>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36dfd0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379160>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:12:24,565 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36dee0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3645e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379220>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379310>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379460>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:12:24,569 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36d9d0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379520>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379220>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379610>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379760>] 提取david的ASS秘密份额并重构
+2023-06-08 19:12:24,572 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36dee0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379850>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379160>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379910>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379a60>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:12:24,573 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f8d5c36df10>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379b20>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c3797c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379c10>, <secretflow.device.device.pyu.PYUObject object at 0x7f8d5c379d60>] 提取nigger的ASS秘密份额并重构
+2023-06-08 19:16:45,074 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 19:16:48,699 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device user
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device TTP
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device chrome
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 19:16:48,699 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 19:16:48,700 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 19:16:48,700 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 19:16:53,636 - logger - INFO - ABY3成功分享alice的秘密份额于[ObjectRef(f4402ec78d3a2607a6e9c4a13856ddd231dc89640100000001000000), ObjectRef(f91b78d7db9a659356acc3663faeb1cce65f6e4b0100000001000000), ObjectRef(82891771158d68c192e7238ace6498337ae57d190100000001000000)]
+2023-06-08 19:16:55,037 - logger - INFO - ABY3成功分享bob的秘密份额于[ObjectRef(359ec6ce30d3ca2da6e9c4a13856ddd231dc89640100000001000000), ObjectRef(1e8ff6d23613278456acc3663faeb1cce65f6e4b0100000001000000), ObjectRef(85748392bcd969cc92e7238ace6498337ae57d190100000001000000)]
+2023-06-08 19:16:55,051 - logger - INFO - ABY3成功分享carol的秘密份额于[ObjectRef(71b133a11e1c461ca6e9c4a13856ddd231dc89640100000001000000), ObjectRef(5d4b8d1788f12d2d56acc3663faeb1cce65f6e4b0100000001000000), ObjectRef(c54e76759b2a0c1092e7238ace6498337ae57d190100000001000000)]
+2023-06-08 19:16:57,935 - logger - INFO - ABY3成功分享david的秘密份额于[ObjectRef(18b2ad3c688fb947a6e9c4a13856ddd231dc89640100000001000000), ObjectRef(dc746dc61b2c192356acc3663faeb1cce65f6e4b0100000001000000), ObjectRef(c76a79b2875a725192e7238ace6498337ae57d190100000001000000)]
+2023-06-08 19:16:59,251 - logger - INFO - ABY3成功分享eva的秘密份额于[ObjectRef(cae5e964086715a4a6e9c4a13856ddd231dc89640100000001000000), ObjectRef(bcb4fef46b376caf56acc3663faeb1cce65f6e4b0100000001000000), ObjectRef(88543757a8df6d2f92e7238ace6498337ae57d190100000001000000)]
+2023-06-08 19:16:59,291 - logger - INFO - shamir成功分享alice的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f48c54149a0><secretflow.device.device.pyu.PYUObject object at 0x7f48c5410b50><secretflow.device.device.pyu.PYUObject object at 0x7f48c5406be0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c71c0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c7490>
+2023-06-08 19:16:59,319 - logger - INFO - shamir成功分享bob的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f48c43c74f0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c7760><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c7280><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c7730><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c77c0>
+2023-06-08 19:16:59,349 - logger - INFO - shamir成功分享carol的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f48c43c74c0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c7f10><secretflow.device.device.pyu.PYUObject object at 0x7f48c43c7ee0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca0d0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca100>
+2023-06-08 19:16:59,417 - logger - INFO - shamir成功分享david的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca070><secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca730><secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca5b0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca700><secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca790>
+2023-06-08 19:16:59,462 - logger - INFO - shamir成功分享eva的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f48c43ca2e0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43caee0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43caeb0><secretflow.device.device.pyu.PYUObject object at 0x7f48c43caf70><secretflow.device.device.pyu.PYUObject object at 0x7f48c43cad30>
+2023-06-08 19:18:04,717 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f48c43878e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387a90>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387bb0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387d00>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387e50>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:18:04,724 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f48c43dab50>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387d30>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387ca0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43879a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387eb0>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:18:04,728 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f48c43877c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4387d00>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43dab50>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4393160>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43932b0>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:18:04,729 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f48c43877c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4393430>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4393190>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4393460>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43935b0>] 提取david的ASS秘密份额并重构
+2023-06-08 19:18:04,732 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f48c43877c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43936a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43930a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c4393760>, <secretflow.device.device.pyu.PYUObject object at 0x7f48c43938b0>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:18:11,616 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:18:47,386 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 19:18:50,479 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 19:18:50,479 - logger - INFO - System init a PYU device user
+2023-06-08 19:18:50,480 - logger - INFO - System init a PYU device TTP
+2023-06-08 19:18:50,480 - logger - INFO - System init a PYU device chrome
+2023-06-08 19:18:50,480 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 19:18:50,481 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 19:18:50,481 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 19:18:50,482 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 19:18:50,482 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 19:18:50,483 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 19:18:53,470 - logger - INFO - ABY3成功分享alice的秘密份额于[ObjectRef(f4402ec78d3a26070ad596a76e3c329bdbe1aa900100000001000000), ObjectRef(f91b78d7db9a6593a9c13967d68ba5f5aeaf4ecb0100000001000000), ObjectRef(82891771158d68c1f7e4ced45508764a65e728860100000001000000)]
+2023-06-08 19:18:55,646 - logger - INFO - ABY3成功分享bob的秘密份额于[ObjectRef(359ec6ce30d3ca2d0ad596a76e3c329bdbe1aa900100000001000000), ObjectRef(1e8ff6d236132784a9c13967d68ba5f5aeaf4ecb0100000001000000), ObjectRef(85748392bcd969ccf7e4ced45508764a65e728860100000001000000)]
+2023-06-08 19:18:55,659 - logger - INFO - ABY3成功分享carol的秘密份额于[ObjectRef(71b133a11e1c461c0ad596a76e3c329bdbe1aa900100000001000000), ObjectRef(5d4b8d1788f12d2da9c13967d68ba5f5aeaf4ecb0100000001000000), ObjectRef(c54e76759b2a0c10f7e4ced45508764a65e728860100000001000000)]
+2023-06-08 19:18:58,412 - logger - INFO - ABY3成功分享david的秘密份额于[ObjectRef(18b2ad3c688fb9470ad596a76e3c329bdbe1aa900100000001000000), ObjectRef(dc746dc61b2c1923a9c13967d68ba5f5aeaf4ecb0100000001000000), ObjectRef(c76a79b2875a7251f7e4ced45508764a65e728860100000001000000)]
+2023-06-08 19:18:59,955 - logger - INFO - ABY3成功分享eva的秘密份额于[ObjectRef(cae5e964086715a40ad596a76e3c329bdbe1aa900100000001000000), ObjectRef(bcb4fef46b376cafa9c13967d68ba5f5aeaf4ecb0100000001000000), ObjectRef(88543757a8df6d2ff7e4ced45508764a65e728860100000001000000)]
+2023-06-08 19:18:59,986 - logger - INFO - shamir成功分享alice的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f9a380cc400><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f130><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f100><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f220><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f370>
+2023-06-08 19:19:00,019 - logger - INFO - shamir成功分享bob的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f190><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804fac0><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f940><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804fa90><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804fb20>
+2023-06-08 19:19:00,167 - logger - INFO - shamir成功分享carol的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f9a3805d040><secretflow.device.device.pyu.PYUObject object at 0x7f9a380cca60><secretflow.device.device.pyu.PYUObject object at 0x7f9a3805d340><secretflow.device.device.pyu.PYUObject object at 0x7f9a3805d0a0><secretflow.device.device.pyu.PYUObject object at 0x7f9a3805d430>
+2023-06-08 19:19:00,262 - logger - INFO - shamir成功分享david的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f9a3805d490><secretflow.device.device.pyu.PYUObject object at 0x7f9a3805dac0><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804fdc0><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804fe80><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804fc10>
+2023-06-08 19:19:00,360 - logger - INFO - shamir成功分享eva的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f790><secretflow.device.device.pyu.PYUObject object at 0x7f9a3b932eb0><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f280><secretflow.device.device.pyu.PYUObject object at 0x7f9a380ca850><secretflow.device.device.pyu.PYUObject object at 0x7f9a3804f310>
+2023-06-08 19:19:04,953 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c280>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c430>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c550>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c6a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c7f0>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:19:04,958 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f9a380731c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c8e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c610>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c370>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c850>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:19:04,963 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f9a38073430>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801ca00>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c2e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801cac0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801cc10>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:19:04,965 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f9a380731c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801cd00>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c970>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801cdc0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801cf10>] 提取david的ASS秘密份额并重构
+2023-06-08 19:19:04,967 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f9a3801cdf0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801c8e0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a38073cd0>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801f100>, <secretflow.device.device.pyu.PYUObject object at 0x7f9a3801f250>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:19:09,327 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:19:39,067 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 19:19:42,196 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 19:19:42,197 - logger - INFO - System init a PYU device user
+2023-06-08 19:19:42,197 - logger - INFO - System init a PYU device TTP
+2023-06-08 19:19:42,197 - logger - INFO - System init a PYU device chrome
+2023-06-08 19:19:42,198 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 19:19:42,198 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 19:19:42,198 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 19:19:42,198 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 19:19:42,198 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 19:19:42,198 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 19:19:45,728 - logger - INFO - ABY3成功分享alice的秘密份额于[ObjectRef(f4402ec78d3a2607ebc41873831b76e795b5a86e0100000001000000), ObjectRef(f91b78d7db9a65939d34a2606ea1ca25f7e38e650100000001000000), ObjectRef(82891771158d68c1d2e7a9a878c0cdc7ad0a38820100000001000000)]
+2023-06-08 19:19:46,871 - logger - INFO - ABY3成功分享bob的秘密份额于[ObjectRef(359ec6ce30d3ca2debc41873831b76e795b5a86e0100000001000000), ObjectRef(1e8ff6d2361327849d34a2606ea1ca25f7e38e650100000001000000), ObjectRef(85748392bcd969ccd2e7a9a878c0cdc7ad0a38820100000001000000)]
+2023-06-08 19:19:46,883 - logger - INFO - ABY3成功分享carol的秘密份额于[ObjectRef(71b133a11e1c461cebc41873831b76e795b5a86e0100000001000000), ObjectRef(5d4b8d1788f12d2d9d34a2606ea1ca25f7e38e650100000001000000), ObjectRef(c54e76759b2a0c10d2e7a9a878c0cdc7ad0a38820100000001000000)]
+2023-06-08 19:19:48,583 - logger - INFO - ABY3成功分享david的秘密份额于[ObjectRef(18b2ad3c688fb947ebc41873831b76e795b5a86e0100000001000000), ObjectRef(dc746dc61b2c19239d34a2606ea1ca25f7e38e650100000001000000), ObjectRef(c76a79b2875a7251d2e7a9a878c0cdc7ad0a38820100000001000000)]
+2023-06-08 19:19:49,855 - logger - INFO - ABY3成功分享eva的秘密份额于[ObjectRef(cae5e964086715a4ebc41873831b76e795b5a86e0100000001000000), ObjectRef(bcb4fef46b376caf9d34a2606ea1ca25f7e38e650100000001000000), ObjectRef(88543757a8df6d2fd2e7a9a878c0cdc7ad0a38820100000001000000)]
+2023-06-08 19:19:49,882 - logger - INFO - shamir成功分享alice的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f039c362220><secretflow.device.device.pyu.PYUObject object at 0x7f039c38ac10><secretflow.device.device.pyu.PYUObject object at 0x7f039c396670><secretflow.device.device.pyu.PYUObject object at 0x7f039c316190><secretflow.device.device.pyu.PYUObject object at 0x7f039c316460>
+2023-06-08 19:19:49,911 - logger - INFO - shamir成功分享bob的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f039c3164c0><secretflow.device.device.pyu.PYUObject object at 0x7f039c316730><secretflow.device.device.pyu.PYUObject object at 0x7f039c3161c0><secretflow.device.device.pyu.PYUObject object at 0x7f039c316700><secretflow.device.device.pyu.PYUObject object at 0x7f039c316790>
+2023-06-08 19:19:49,947 - logger - INFO - shamir成功分享carol的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f039c316490><secretflow.device.device.pyu.PYUObject object at 0x7f039c316f10><secretflow.device.device.pyu.PYUObject object at 0x7f039c316ee0><secretflow.device.device.pyu.PYUObject object at 0x7f039c322160><secretflow.device.device.pyu.PYUObject object at 0x7f039c3220d0>
+2023-06-08 19:19:50,001 - logger - INFO - shamir成功分享david的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f039c3222b0><secretflow.device.device.pyu.PYUObject object at 0x7f039c322730><secretflow.device.device.pyu.PYUObject object at 0x7f039c3225b0><secretflow.device.device.pyu.PYUObject object at 0x7f039c322700><secretflow.device.device.pyu.PYUObject object at 0x7f039c322790>
+2023-06-08 19:19:50,031 - logger - INFO - shamir成功分享eva的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7f039c322070><secretflow.device.device.pyu.PYUObject object at 0x7f039c322ee0><secretflow.device.device.pyu.PYUObject object at 0x7f039c322eb0><secretflow.device.device.pyu.PYUObject object at 0x7f039c322f70><secretflow.device.device.pyu.PYUObject object at 0x7f039c322d30>
+2023-06-08 19:20:05,710 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3670>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3820>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3940>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3a90>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3be0>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:20:05,721 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f039c32b7c0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3ac0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3a30>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3730>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3d30>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:20:05,725 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f039c32bfa0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3e20>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3670>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3ee0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e6070>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:20:05,729 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3ac0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3a30>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e61f0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e6220>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e6370>] 提取david的ASS秘密份额并重构
+2023-06-08 19:20:05,732 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7f039c2e3a30>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e63a0>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e6310>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e6520>, <secretflow.device.device.pyu.PYUObject object at 0x7f039c2e6670>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:20:11,617 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:20:44,794 - logger - INFO - mysql qury result =(('alice', '123456'), ('bob', 'qwer1234'), ('carol', 'rs90123'), ('david', '5678!dbn'), ('eva', 'serectflow'))
+2023-06-08 19:20:47,896 - logger - INFO - The system begin with node : user、chrome、TTP、Webserver1、Webserver2、Webserver3、Webserver4、Webserver5
+2023-06-08 19:20:47,897 - logger - INFO - System init a PYU device user
+2023-06-08 19:20:47,898 - logger - INFO - System init a PYU device TTP
+2023-06-08 19:20:47,899 - logger - INFO - System init a PYU device chrome
+2023-06-08 19:20:47,900 - logger - INFO - System init a PYU device Webserver1
+2023-06-08 19:20:47,900 - logger - INFO - System init a PYU device Webserver2
+2023-06-08 19:20:47,901 - logger - INFO - System init a PYU device Webserver3
+2023-06-08 19:20:47,901 - logger - INFO - System init a PYU device Webserver4
+2023-06-08 19:20:47,901 - logger - INFO - System init a PYU device Webserver5
+2023-06-08 19:20:47,902 - logger - INFO - System init a SPU device with user、chrome、TTP
+2023-06-08 19:20:51,286 - logger - INFO - ABY3成功分享alice的秘密份额于[ObjectRef(f4402ec78d3a2607116a70e8669f2d9a581bab520100000001000000), ObjectRef(f91b78d7db9a6593f80ed3d0d1dcfe5574c4788d0100000001000000), ObjectRef(82891771158d68c10f6d5a4445f7c2c36c98411b0100000001000000)]
+2023-06-08 19:20:53,511 - logger - INFO - ABY3成功分享bob的秘密份额于[ObjectRef(359ec6ce30d3ca2d116a70e8669f2d9a581bab520100000001000000), ObjectRef(1e8ff6d236132784f80ed3d0d1dcfe5574c4788d0100000001000000), ObjectRef(85748392bcd969cc0f6d5a4445f7c2c36c98411b0100000001000000)]
+2023-06-08 19:20:53,545 - logger - INFO - ABY3成功分享carol的秘密份额于[ObjectRef(71b133a11e1c461c116a70e8669f2d9a581bab520100000001000000), ObjectRef(5d4b8d1788f12d2df80ed3d0d1dcfe5574c4788d0100000001000000), ObjectRef(c54e76759b2a0c100f6d5a4445f7c2c36c98411b0100000001000000)]
+2023-06-08 19:20:56,289 - logger - INFO - ABY3成功分享david的秘密份额于[ObjectRef(18b2ad3c688fb947116a70e8669f2d9a581bab520100000001000000), ObjectRef(dc746dc61b2c1923f80ed3d0d1dcfe5574c4788d0100000001000000), ObjectRef(c76a79b2875a72510f6d5a4445f7c2c36c98411b0100000001000000)]
+2023-06-08 19:20:57,875 - logger - INFO - ABY3成功分享eva的秘密份额于[ObjectRef(cae5e964086715a4116a70e8669f2d9a581bab520100000001000000), ObjectRef(bcb4fef46b376caff80ed3d0d1dcfe5574c4788d0100000001000000), ObjectRef(88543757a8df6d2f0f6d5a4445f7c2c36c98411b0100000001000000)]
+2023-06-08 19:20:57,937 - logger - INFO - shamir成功分享alice的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7fb56858cf40><secretflow.device.device.pyu.PYUObject object at 0x7fb568511100><secretflow.device.device.pyu.PYUObject object at 0x7fb5685110d0><secretflow.device.device.pyu.PYUObject object at 0x7fb568511190><secretflow.device.device.pyu.PYUObject object at 0x7fb5685112e0>
+2023-06-08 19:20:58,029 - logger - INFO - shamir成功分享bob的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7fb568511070><secretflow.device.device.pyu.PYUObject object at 0x7fb568511a30><secretflow.device.device.pyu.PYUObject object at 0x7fb5685118b0><secretflow.device.device.pyu.PYUObject object at 0x7fb568511a00><secretflow.device.device.pyu.PYUObject object at 0x7fb568511a90>
+2023-06-08 19:20:58,137 - logger - INFO - shamir成功分享carol的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7fb56858c280><secretflow.device.device.pyu.PYUObject object at 0x7fb56851d190><secretflow.device.device.pyu.PYUObject object at 0x7fb56851d130><secretflow.device.device.pyu.PYUObject object at 0x7fb56851d250><secretflow.device.device.pyu.PYUObject object at 0x7fb56851d2b0>
+2023-06-08 19:20:58,199 - logger - INFO - shamir成功分享david的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7fb56851d0a0><secretflow.device.device.pyu.PYUObject object at 0x7fb56851da30><secretflow.device.device.pyu.PYUObject object at 0x7fb568511c40><secretflow.device.device.pyu.PYUObject object at 0x7fb568511b80><secretflow.device.device.pyu.PYUObject object at 0x7fb568511ac0>
+2023-06-08 19:20:58,272 - logger - INFO - shamir成功分享eva的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7fb568511b20><secretflow.device.device.pyu.PYUObject object at 0x7fb56bdf4e50><secretflow.device.device.pyu.PYUObject object at 0x7fb5685111c0><secretflow.device.device.pyu.PYUObject object at 0x7fb5685895e0><secretflow.device.device.pyu.PYUObject object at 0x7fb568511250>
+2023-06-08 19:21:14,893 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd1f0>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd400>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd520>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd670>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd7c0>] 提取alice的ASS秘密份额并重构
+2023-06-08 19:21:14,898 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fb568526340>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd8b0>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd5e0>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd340>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd9a0>] 提取bob的ASS秘密份额并重构
+2023-06-08 19:21:14,903 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fb568526190>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dda90>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dd2e0>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684ddb50>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684ddca0>] 提取carol的ASS秘密份额并重构
+2023-06-08 19:21:14,906 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fb568526340>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684ddd90>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dda00>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684dde50>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684ddfa0>] 提取david的ASS秘密份额并重构
+2023-06-08 19:21:14,907 - logger - INFO - 网站服务器正在从 [<secretflow.device.device.pyu.PYUObject object at 0x7fb5684ddf40>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684ddb80>, <secretflow.device.device.pyu.PYUObject object at 0x7fb568526340>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684e1190>, <secretflow.device.device.pyu.PYUObject object at 0x7fb5684e12e0>] 提取eva的ASS秘密份额并重构
+2023-06-08 19:21:19,624 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:21:19,656 - logger - INFO - shamir成功分享alice刷新后的秘密份额于<secretflow.device.device.pyu.PYUObject object at 0x7fb5684e1c10><secretflow.device.device.pyu.PYUObject object at 0x7fb5684e6190><secretflow.device.device.pyu.PYUObject object at 0x7fb5684e61f0><secretflow.device.device.pyu.PYUObject object at 0x7fb5684e6130><secretflow.device.device.pyu.PYUObject object at 0x7fb5684e6310>
+2023-06-08 19:21:19,656 - logger - INFO - 刷新前的秘密份额: ['213****244', '819****201', '448****962', '580****281', '494****761', '546****020']
+2023-06-08 19:21:19,656 - logger - INFO - 刷新后的秘密份额: ['245****500', '225****425', '198****128', '289****313', '378****995', '453****398', '791****332']
+2023-06-08 19:21:19,657 - logger - INFO - alice的秘密份额刷新成功！
+2023-06-08 19:22:16,601 - logger - INFO - 浏览器正在提取所有用户名...
+2023-06-08 19:22:16,603 - logger - INFO - alice注册失败，已存在同名用户

@@ -43,11 +43,11 @@ def proactivizeShares(shares):
 # def generate_webserver_shares(n, t, org_password):
 def generate_webserver_shares(n, org_password):
     webserver_ss_list = [getAdditiveShares(x, n, FIELD_SIZE) for x in org_password]
-    # print(webserver_ss_list)
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    print(webserver_ss_list)
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
 
     webserver_ss_list = [list(row) for row in zip(*webserver_ss_list)]
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
 
     # compute the hash
     for index in range(n):
@@ -56,8 +56,8 @@ def generate_webserver_shares(n, org_password):
         hash_value = hash_object.hexdigest()
         decimal_value = int(hash_value, 16)
         webserver_ss_list[index].append(decimal_value)
-    # print(webserver_ss_list)
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    print(webserver_ss_list)
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
 
     return webserver_ss_list
 
@@ -85,21 +85,21 @@ def refresh_webserver_secret(webserver_ss_list):
     for ss_list in webserver_ss_list:
         hash_value = ss_list.pop()
         hash_list.append(hash_value)
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
     # print(hash_list)
 
     # refresh the data element
     webserver_ss_list = [list(row) for row in zip(*webserver_ss_list)]
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
     for index in range(len(webserver_ss_list)):
         webserver_ss_list[index] = proactivizeShares(webserver_ss_list[index])
 
     webserver_ss_list = [list(row) for row in zip(*webserver_ss_list)]
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
     for index in range(len(webserver_ss_list)):
         webserver_ss_list[index].append(hash_list[index])
     print(webserver_ss_list)
-    print(len(webserver_ss_list), len(webserver_ss_list[0]))
+    # print(len(webserver_ss_list), len(webserver_ss_list[0]))
     return webserver_ss_list
 
 

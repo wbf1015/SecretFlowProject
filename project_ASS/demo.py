@@ -2,7 +2,6 @@ import secretflow as sf
 import spu
 import copy
 import db
-import logger
 import corn
 import jax
 import ray
@@ -10,7 +9,8 @@ import random
 import copy
 from ASS import generate_webserver_shares, reconstruct_webserver_secret, refresh_webserver_secret
 from utils import dict_encode,array2int,decode_unicode
-logger = logger.getLogger()
+from logger import *
+
 
 '''
 aby3 means the party: user、chrome、TTP
@@ -49,6 +49,7 @@ def transfer_password(up_dict, pyu, spu_device,store_dic):
         value = up_dict[key]
         password_pyu = pyu(get_password)(value)
         password_spu = password_pyu.to(spu_device)
+        make_ABY3_Logger('ABY3成功分享'+key+'的秘密份额于'+str(password_spu.shares_name))
         store_dic[key] = password_spu
     # return up_dict
 
@@ -65,6 +66,10 @@ def share_ASS_secret(n,user_dic,store_dic):
         ss_pyu_webserver4 = pyu_webserver4(get_password)(shares[3])
         ss_pyu_webserver5 = pyu_webserver5(get_password)(shares[4])
         shares = [ss_pyu_webserver1,ss_pyu_webserver2,ss_pyu_webserver3,ss_pyu_webserver4,ss_pyu_webserver5]
+        tmp = ''
+        for pyu in shares:
+            tmp += str(pyu)
+        make_ASS_Logger('shamir成功分享'+key+'的秘密份额于'+tmp)
         store_dic[key] = shares
 
 # ===============================================================================
@@ -97,6 +102,12 @@ def refresh_shares(n,username,index):
     ss_pyu_webserver5 = pyu_webserver5(get_password)(value[4])
     values = [ss_pyu_webserver1,ss_pyu_webserver2,ss_pyu_webserver3,ss_pyu_webserver4,ss_pyu_webserver5]
     ASS_dic[username] = values
+    tmp = ''
+    for pyu in values:
+        tmp += str(pyu)
+    make_ASS_Logger('shamir成功分享'+username+'刷新后的秘密份额于'+tmp)
+    make_ASS_Logger('刷新前的秘密份额: ' + str(display(before,3)))
+    make_ASS_Logger('刷新后的秘密份额: ' + str(display(after,3)))
     return display(before,3),display(after[:-1],3)
         
 # ===============================================================================
@@ -121,7 +132,7 @@ def ABY3_ASS_simulator():
     user_dic = db.getUser()
     user_dic = dict_encode(user_dic)
     device_dic = corn.ABY3_ASS()
-    global pyu_user, pyu_TTP, pyu_TTP, pyu_chrome, pyu_webserver1, pyu_webserver2, pyu_webserver3, pyu_webserver4\
+    global pyu_user, pyu_TTP, pyu_chrome, pyu_webserver1, pyu_webserver2, pyu_webserver3, pyu_webserver4\
         , pyu_webserver5, aby3_config, spu_aby3
     pyu_user = device_dic['pyu_user']
     pyu_TTP= device_dic['pyu_TTP']
@@ -173,6 +184,8 @@ Input : username
 Output : password revealed by aby3 from user、chrome、TTP
 '''
 def get_password_from_aby3_spu_dic(user_name):
+    tmp = aby3_spu_dic[user_name]
+    make_ABY3_Logger('浏览器、用户、可信第三方正在从 '+str(tmp.shares_name)+' 提取'+user_name+'的ABY3秘密份额并重构')
     return decode_unicode(array2int(sf.reveal(aby3_spu_dic[user_name])))
 
 '''
@@ -182,6 +195,7 @@ Output : password revealed by ASS from webserver1-5
 def get_password_from_ASS_pyu_dic(n, user_name):
     # check()
     value = copy.deepcopy(ASS_dic[user_name])
+    make_ASS_Logger('网站服务器正在从 '+str(value)+' 提取'+user_name+'的ASS秘密份额并重构')
     # check()
     for i in range(0,n):
         value[i] = ray.get(value[i].data)
@@ -192,15 +206,16 @@ def get_password_from_ASS_pyu_dic(n, user_name):
     
 def get_all_from_aby3_spu_dic():
     new_dic = {}
+    make_ABY3_Logger('浏览器正在提取所有用户名...')
     for key in aby3_spu_dic:
-        value = get_password_from_aby3_spu_dic(key)
+        value = None
         new_dic[key] = value
     return new_dic
 
-def get_all_from_ASS_pyu_dic():
+def get_all_from_ASS_pyu_dic(n):
     new_dic = {}
     for key in ASS_dic:
-        value = get_password_from_ASS_pyu_dic(5,3,key)
+        value = get_password_from_ASS_pyu_dic(n,key)
         new_dic[key] = value
     return new_dic
 
