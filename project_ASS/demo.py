@@ -69,7 +69,7 @@ def share_ASS_secret(n,user_dic,store_dic):
         tmp = ''
         for pyu in shares:
             tmp += str(pyu)
-        make_ASS_Logger('shamir成功分享'+key+'的秘密份额于'+tmp)
+        make_ASS_Logger('ASS成功分享'+key+'的秘密份额于'+tmp)
         store_dic[key] = shares
 
 # ===============================================================================
@@ -105,7 +105,7 @@ def refresh_shares(n,username,index):
     tmp = ''
     for pyu in values:
         tmp += str(pyu)
-    make_ASS_Logger('shamir成功分享'+username+'刷新后的秘密份额于'+tmp)
+    make_ASS_Logger('ASS成功分享'+username+'刷新后的秘密份额于'+tmp)
     make_ASS_Logger('刷新前的秘密份额: ' + str(display(before,3)))
     make_ASS_Logger('刷新后的秘密份额: ' + str(display(after,3)))
     return display(before,3),display(after[:-1],3)
@@ -146,8 +146,10 @@ def ABY3_ASS_simulator():
 
     spu_aby3 = sf.SPU(aby3_config)
     
+    share_ASS_secret(5, user_dic, ASS_dic) # 最后一个不存在chrome中但是存在webserver中
+    user_dic.pop('special')
     transfer_password(user_dic, pyu_user, spu_aby3, aby3_spu_dic)
-    share_ASS_secret(5, user_dic, ASS_dic)
+
     
     # reveal_test = sf.reveal(semi2k_spu_dic['david'])
     # print(reveal_test)
@@ -170,6 +172,11 @@ def add_user_2_aby3_spu_dic(user_name,password):
     dic = {user_name:password}
     dic = dict_encode(dic)
     transfer_password(dic, pyu_user, spu_aby3, aby3_spu_dic)
+
+def erase_user_from_aby3_spu_dic(user_name):
+    aby3_spu_dic.pop(user_name)
+    make_ABY3_Logger(user_name+'在ABY3中的暂存记录被删除')
+
 
 def add_user_2_ASS_pyu_dic(user_name,password):
     dic = {user_name:password}
@@ -215,7 +222,7 @@ def get_all_from_aby3_spu_dic():
 def get_all_from_ASS_pyu_dic(n):
     new_dic = {}
     for key in ASS_dic:
-        value = get_password_from_ASS_pyu_dic(n,key)
+        value = get_password_from_ASS_pyu_dic(n, key)
         new_dic[key] = value
     return new_dic
 

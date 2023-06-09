@@ -10,7 +10,7 @@ import sys
 import random
 from demo import ABY3_ASS_simulator,\
     get_all_from_aby3_spu_dic,get_all_from_ASS_pyu_dic,\
-    add_user_2_aby3_spu_dic, add_user_2_ASS_pyu_dic,\
+    add_user_2_aby3_spu_dic, add_user_2_ASS_pyu_dic,erase_user_from_aby3_spu_dic,\
     get_password_from_aby3_spu_dic,get_password_from_ASS_pyu_dic,\
     check, refresh_shares
 from logger import *
@@ -23,14 +23,17 @@ def register():
         input(("请输入您的用户名："), name="username", type=TEXT),
         input(("请输入您的密码："), name="password", type=PASSWORD),
     ])
-    if info['username'] in get_all_from_aby3_spu_dic():
+    if info['username'] in get_all_from_ASS_pyu_dic(5):
         popup('注册错误', '用户名重复')
         make_WebInfo_Logger(info['username'] + '注册失败，已存在同名用户')
     else:
     # 更新用户名和密码
-        add_user_2_aby3_spu_dic(str(info['username']),str(info['password']))
+
+        sel = select("是否在浏览器中保存密码:", options=["保存", "不保存"])
         add_user_2_ASS_pyu_dic(str(info['username']),str(info['password']))
-        
+        if sel == '保存':
+            add_user_2_aby3_spu_dic(str(info['username']),str(info['password']))
+
         # 更新主页展示的用户名和密码
         put_html('<meta http-equiv="refresh" content="0;url=/">')
 
@@ -51,17 +54,45 @@ def login():
         password_input = input(("请输入您的密码："), type=PASSWORD)
         make_ABY3_Logger('没有找到对应用户 '+ username_input)
 
-    # 验证用户名和密码
+    # 用户名和密码可以通过ABY3协议和ASS恢复，并且二者可以匹配
     if username_input in get_all_from_aby3_spu_dic() and get_password_from_aby3_spu_dic(username_input) == get_password_from_ASS_pyu_dic(5, username_input):
         with use_scope('login',clear=True):
             put_text(username_input,'登录成功！')
-            make_WebInfo_Logger(str(username_input)+'登录系统成功')
-    else:
+            make_WebInfo_Logger(str(username_input)+'使用ABY3协议以及ASS协议恢复密码,登录系统成功')
+    
+    # 用户名和密码可以通过ABY3协议和ASS恢复，但二者不能匹配
+    elif username_input in get_all_from_aby3_spu_dic() and get_password_from_aby3_spu_dic(username_input) != get_password_from_ASS_pyu_dic(5, username_input):
         # 显示注册按钮
         # put_buttons(['注册'], onclick=[register])
         with use_scope('login',clear=True):
             put_text(username_input,'登录失败！')
             make_WebInfo_Logger(str(username_input)+'登录系统失败')
+    
+    
+    # 在浏览器找不到这个用户名对应的密码，但是这个账户是有的，那就根据用户的密码进行比对
+    else:
+        if username_input in get_all_from_ASS_pyu_dic(5):
+            add_user_2_aby3_spu_dic(username_input,password_input) #这一步是暂存，还会删掉
+            if username_input in get_all_from_aby3_spu_dic() and get_password_from_aby3_spu_dic(username_input) == get_password_from_ASS_pyu_dic(5, username_input):
+                with use_scope('login',clear=True):
+                    put_text(username_input,'登录成功！')
+                    make_WebInfo_Logger(str(username_input)+'使用ABY3协议以及ASS协议恢复密码,登录系统成功')
+        
+            # 比对失败
+            elif username_input in get_all_from_aby3_spu_dic() and get_password_from_aby3_spu_dic(username_input) != get_password_from_ASS_pyu_dic(5, username_input):
+                # 显示注册按钮
+                # put_buttons(['注册'], onclick=[register])
+                with use_scope('login',clear=True):
+                    put_text(username_input,'登录失败！')
+                    make_WebInfo_Logger(str(username_input)+'登录系统失败')
+            # 删掉暂时存储的密码
+            erase_user_from_aby3_spu_dic(username_input)
+        else:
+            put_text(username_input,'登录失败！')
+            make_WebInfo_Logger(str(username_input)+'不存在该账号')
+    
+    
+    
 
 def refresh_button():
     info = input_group(('请输入您的用户名用户名,系统将自动刷新存在应用服务端的秘密份额'), [
