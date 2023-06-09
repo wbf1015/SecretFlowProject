@@ -2,7 +2,6 @@ import secretflow as sf
 import spu
 import copy
 import db
-import logger
 import corn
 import jax
 import ray
@@ -10,7 +9,7 @@ import random
 import copy
 from shamir import generate_webserver_shares, reconstruct_webserver_secret, webserver_selfcheck
 from utils import dict_encode,array2int,decode_unicode
-logger = logger.getLogger()
+from logger import *
 
 '''
 aby3 means the party: user、chrome、TTP
@@ -49,6 +48,7 @@ def transfer_password(up_dict, pyu, spu_device,store_dic):
         value = up_dict[key]
         password_pyu = pyu(get_password)(value)
         password_spu = password_pyu.to(spu_device)
+        make_ABY3_Logger('ABY3成功分享'+key+'的秘密份额于'+str(password_spu.shares_name))
         store_dic[key] = password_spu
     # return up_dict
 
@@ -65,6 +65,10 @@ def share_shamir_secret(n,t,user_dic,store_dic):
         ss_pyu_webserver4 = pyu_webserver4(get_password)(shares[3])
         ss_pyu_webserver5 = pyu_webserver5(get_password)(shares[4])
         shares = [ss_pyu_webserver1,ss_pyu_webserver2,ss_pyu_webserver3,ss_pyu_webserver4,ss_pyu_webserver5]
+        tmp = ''
+        for pyu in shares:
+            tmp += str(pyu)
+        make_shamir_Logger('shamir成功分享'+key+'的秘密份额于'+tmp)
         store_dic[key] = shares
 
 # ===============================================================================
@@ -76,6 +80,7 @@ def attack_simulator(server_list,username):
     for index in server_list:
         key = username
         value = ray.get(shamir_dic[key][index].data)
+        make_shamir_Logger('网站服务器正在从 '+str(shamir_dic[key][index])+' 提取'+username+'的shamir秘密份额并重构')
         element_index = random.randint(0, len(value)-1)
         print('key=',key,'index=',index,'element_index=',element_index)
         print(value)
@@ -89,29 +94,50 @@ def attack_simulator(server_list,username):
         print(type(shamir_dic[key][index]))
         if index == 0 :
             change_value = pyu_webserver1(get_password)(value)
+            make_shamir_Logger(str(index)+'号服务器的内容被更改为'+str(change_value))
             shamir_dic[key][index] = change_value
         elif index == 1 :
             change_value = pyu_webserver2(get_password)(value)
+            make_shamir_Logger(str(index)+'号服务器的内容被更改为'+str(change_value))
             shamir_dic[key][index] = change_value
         elif index == 2 :
             change_value = pyu_webserver3(get_password)(value)
+            make_shamir_Logger(str(index)+'号服务器的内容被更改为'+str(change_value))
             shamir_dic[key][index] = change_value
         elif index == 3 :
             change_value = pyu_webserver4(get_password)(value)
+            make_shamir_Logger(str(index)+'号服务器的内容被更改为'+str(change_value))
             shamir_dic[key][index] = change_value
         elif index == 4 :
             change_value = pyu_webserver5(get_password)(value)
+            make_shamir_Logger(str(index)+'号服务器的内容被更改为'+str(change_value))
             shamir_dic[key][index] = change_value
         # check()
 
 # ===============================================================================
 def server_check(username):
+    make_shamir_Logger('正在进行服务器自测')
     value = copy.deepcopy(shamir_dic[username])
     # check()
     for i in range(0,5):
         value[i] = ray.get(value[i].data)
-    print(get_password_from_aby3_spu_dic(username))
+        make_shamir_Logger('正在从'+str(shamir_dic[username][i])+'提取秘密份额')
+    # print(get_password_from_aby3_spu_dic(username))
     attcked_node = webserver_selfcheck(5,3,value,get_password_from_aby3_spu_dic(username))
+    return attcked_node
+
+# 如果是那些没有在浏览器保存秘密份额的用户想要报警请调用这个函数
+def server_check_2(username,password):
+    make_shamir_Logger('正在进行服务器自测')
+    add_user_2_aby3_spu_dic(username, password)
+    value = copy.deepcopy(shamir_dic[username])
+    # check()
+    for i in range(0,5):
+        value[i] = ray.get(value[i].data)
+        make_shamir_Logger('正在从'+str(shamir_dic[username][i])+'提取秘密份额')
+    # print(get_password_from_aby3_spu_dic(username))
+    attcked_node = webserver_selfcheck(5,3,value,get_password_from_aby3_spu_dic(username))
+    erase_user_from_aby3_spu_dic(username)
     return attcked_node
     
     
@@ -179,6 +205,10 @@ def add_user_2_aby3_spu_dic(user_name,password):
     dic = dict_encode(dic)
     transfer_password(dic, pyu_user, spu_aby3, aby3_spu_dic)
 
+def erase_user_from_aby3_spu_dic(user_name):
+    aby3_spu_dic.pop(user_name)
+    make_ABY3_Logger(user_name+'在ABY3中的暂存记录被删除')
+
 def add_user_2_shamir_pyu_dic(user_name,password):
     dic = {user_name:password}
     dic = dict_encode(dic)
@@ -192,6 +222,7 @@ Input : username
 Output : password revealed by aby3 from user、chrome、TTP
 '''
 def get_password_from_aby3_spu_dic(user_name):
+    make_ABY3_Logger('浏览器、用户、可信第三方正在从 '+str(aby3_spu_dic[user_name].shares_name)+' 提取'+user_name+'的ABY3秘密份额并重构')
     return decode_unicode(array2int(sf.reveal(aby3_spu_dic[user_name])))
 
 '''
@@ -202,9 +233,11 @@ def get_password_from_shamir_pyu_dic(n,t,user_name):
     # check()
     value = copy.deepcopy(shamir_dic[user_name])
     # check()
+    make_shamir_Logger('网站服务器正在从 '+str(shamir_dic[user_name])+' 提取'+user_name+'的shamir秘密份额并重构')
     for i in range(0,n):
         value[i] = ray.get(value[i].data)
     random_sequence = random.sample(range(n), t)
+    # print('value=',value)
     ret = reconstruct_webserver_secret(value,random_sequence)
     ret = decode_unicode(ret)
     # check()
@@ -214,7 +247,7 @@ def get_all_from_aby3_spu_dic():
     new_dic = {}
     for key in aby3_spu_dic:
         value = get_password_from_aby3_spu_dic(key)
-        new_dic[key] = value
+        new_dic[key] = None
     return new_dic
 
 def get_all_from_shamir_pyu_dic():

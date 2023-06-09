@@ -4,7 +4,7 @@ import hashlib
 from decimal import Decimal
 from itertools import combinations
 from utils import dict_encode,array2int,decode_unicode
-
+from logger import *
 
 FIELD_SIZE = 10**5
 # webserver的标记

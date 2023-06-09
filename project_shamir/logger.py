@@ -18,5 +18,27 @@ logger.error
 logger.critical
 '''
 
+memory_logger = []
+
+def make_StartInfo_Logger(mylog):
+    logger.info(mylog)
+    memory_logger.append('StartInfo')
+    memory_logger.append(mylog)
+    
+def make_WebInfo_Logger(mylog):
+    logger.info(mylog)
+    memory_logger.append('WebInfo')
+    memory_logger.append(mylog)
+
+def make_ABY3_Logger(mylog):
+    logger.info(mylog)
+    memory_logger.append('ABY3Info')
+    memory_logger.append(mylog)
+
+def make_shamir_Logger(mylog):
+    logger.info(mylog)
+    memory_logger.append('shamirInfo')
+    memory_logger.append(mylog)
+
 def getLogger():
     return logger
