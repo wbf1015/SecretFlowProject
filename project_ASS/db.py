@@ -6,7 +6,7 @@ logger = logger.getLogger()
 connect to the mysql and use the cursor to obtain an operation cursor
 '''
 db = pymysql.connect(
-         host='10.136.48.228',
+         host='192.168.5.130',
          port=3306,
          user='root',
          passwd='wbf20011015',
